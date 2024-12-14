@@ -18,7 +18,7 @@ public class Tests
     {
         ShowDetail = true;
         string text = "abc\ndef\r\nghi\r\n";
-        var result = Util.SplitTextIntoLines(text);
+        var result = NetStd20Util.SplitTextIntoLines(text);
         Echo(result);
         Assert.That(EasyObject.FromObject(result).ToJson(), Is.EqualTo(
             """

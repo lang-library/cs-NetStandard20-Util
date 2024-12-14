@@ -7,7 +7,7 @@ class Program
     {
         ShowDetail = true;
         string text = "abc\ndef\r\nghi\r\n";
-        var result = Util.SplitTextIntoLines(text);
+        var result = NetStd20Util.SplitTextIntoLines(text);
         Echo(result);
 
     }

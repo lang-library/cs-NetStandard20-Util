@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace Global;
 
-public static class Util
+public static class NetStd20Util
 {
     public static string AdjustStringNewlines(string text)
     {
